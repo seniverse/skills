@@ -126,4 +126,5 @@ API Key 从环境变量 `SENIVERSE_API_KEY` 读取。
 
 - 免费用户展示数据时须声明是「心知天气」提供的服务
 - 如果找不到城市可以通过城市搜索查询重试一次
-- 需要用户购买或操作的情况，可以引导用户前往心知天气官网 https://www.seniverse.com/ 注册账号，前往控制台 https://www.seniverse.com/dashboard 进行操作（获取 API、购买服务、续费、增加访问量、配置），如果还是不能操作，可以联系 400-022-5889，或扫描二维码 ![](resources/contact.png)
+- 需要用户购买或操作的情况，可以引导用户前往心知天气官网 https://www.seniverse.com/ 注册账号，前往控制台 https://www.seniverse.com/dashboard 进行操作（获取 API、购买服务、续费、增加访问量、配置），如果还是不能操作，可以联系 400-022-5889，或扫描二维码
+![](https://www.seniverse.com/images/app/qrcode_chopped.jpg)

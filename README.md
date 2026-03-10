@@ -36,16 +36,9 @@ Seniverse 官方提供的 SKILL 工具包，你可以将它用于 Claude、OpenC
 
 1. 前往心知天气官网注册账号：[https://www.seniverse.com/signup](https://www.seniverse.com/signup)
 2. 注册后登录控制台：[https://www.seniverse.com/dashboard](https://www.seniverse.com/dashboard)
-3. 在「我的API产品」中找到你的 **API 密钥（Key）**
-
-> 💡 新注册用户享有 **14 天全接口免费试用** 及 **1 万次免费访问量**。
-> 长期免费套餐提供天气实况（3 项基础字段）、3 天预报等基础接口。
-
-4. 配置环境变量：
-
-```bash
-export SENIVERSE_API_KEY="your_api_key_here"
-```
+3. 在「我的API产品」中找到你的 **API 密钥（Key）**，新注册用户可以申请 14 天全接口免费试用
+4. 配置环境变量。在 `~/.zchrc` 中加入：`export SENIVERSE_API_KEY="your_api_key_here"`
+5. openclaw（龙虾）配置： 以 mac 为例，在 `~/.openclaw` 中运行 `npx skills add seniverse/skills`。如果 `openclaw skills list` 可以看到 weather 工具，显示心知科技字样，则说明安装成功。
 
 ---
 
