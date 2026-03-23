@@ -34,11 +34,14 @@ Seniverse 官方提供的 SKILL 工具包，你可以将它用于 Claude、OpenC
 
 ## 如何获取 SENIVERSE_API_KEY
 
-1. 前往心知天气官网注册账号：[https://www.seniverse.com/signup](https://www.seniverse.com/signup)
-2. 注册后登录控制台：[https://www.seniverse.com/dashboard](https://www.seniverse.com/dashboard)
-3. 在「我的API产品」中找到你的 **API 密钥（Key）**，新注册用户可以申请 14 天全接口免费试用
-4. 配置环境变量。以 mac 为例，编辑 `~/.zchrc`，加入：`export SENIVERSE_API_KEY="your_api_key_here"`
-5. 以 openclaw（龙虾）配置：在 `~/.openclaw` 中运行 `npx skills add seniverse/skills`。如果 `openclaw skills list` 可以看到 weather 工具，显示心知科技字样，则说明安装成功。
+1. 你可以先安装 skills，并让 AI 帮助你配置 `SENIVERSE_API_KEY`：
+   1. 以 openclaw（龙虾）配置：在 `~/.openclaw` 中运行 `npx skills add seniverse/skills`。如果 `openclaw skills list` 可以看到 weather 工具，显示心知科技字样，则说明安装成功。
+   2. 然后你可以和 openclaw 对话，把 `SENIVERSE_API_KEY` 交给 openclaw 让它保存起来。
+2. 或者，你也可以手动配置：
+   1. 前往心知天气官网注册账号：[https://www.seniverse.com/signup](https://www.seniverse.com/signup)
+   2. 注册后登录控制台：[https://www.seniverse.com/dashboard](https://www.seniverse.com/dashboard)
+   3. 在「我的API产品」中找到你的 **API 密钥（Key）**，新注册用户可以申请 14 天全接口免费试用
+   4. 配置环境变量。编辑 `~/.zchrc`，加入：`export SENIVERSE_API_KEY="your_api_key_here"` 或 `~/.openclaw/config.yml`（龙虾），在 `env` 下加入：`SENIVERSE_API_KEY: your_api_key_here`
 
 ---
 
